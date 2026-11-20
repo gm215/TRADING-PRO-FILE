@@ -1,11 +1,9 @@
 {
-  // Cloudflare Workers settings for Trading Pro-File
   "name": "trading-pro-file",
-  "main": "src/worker.js",
+  "main": "worker.js",
   "compatibility_date": "2025-06-01",
-  "assets": { "directory": "./public", "binding": "ASSETS" },
+  "assets": { "directory": "./", "binding": "ASSETS" },
   "ai": { "binding": "AI" },
-  // keep the FB_CONFIG variable you add in the dashboard when the app is deployed again
   "keep_vars": true,
   "observability": { "enabled": true }
 }
