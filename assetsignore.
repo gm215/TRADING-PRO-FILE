@@ -1,0 +1,7 @@
+worker.js
+ai.js
+config.js
+wrangler.jsonc
+firestore-rules.txt
+.git
+README.md
